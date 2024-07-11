@@ -1,0 +1,16 @@
+.header-image {
+  max-width: 60%; /* Adjust the size as needed */
+  height: auto;
+  margin-top: 2rem; /* Adjust the margin as needed */
+  margin: 2rem auto;
+}
+
+header {
+  padding-top: 2rem; /* Add padding to the top of the header */
+}
+
+@media (min-width: 800px) {
+  .header-image {
+    max-width: 40%;
+  }
+}

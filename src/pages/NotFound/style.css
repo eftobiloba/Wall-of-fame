@@ -1,0 +1,31 @@
+.not-found-container {
+  margin-top: 12.5rem;
+  font-family: "DM-sans", sans-serif;
+  text-align: center;
+}
+
+.not-found-container h1 {
+  font-size: 4.5rem;
+  color: #333;
+}
+
+.not-found-container h2 {
+  font-size: 2.2rem;
+  color: #666;
+}
+
+.not-found-container p {
+  margin-bottom: 1.8rem;
+  font-size: 1rem;
+  color: #777;
+}
+
+.not-found-container a {
+  font-size: 1rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.not-found-container a:hover {
+  text-decoration: underline;
+}
