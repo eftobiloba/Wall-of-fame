@@ -31,7 +31,7 @@ const PublishLink = ({ isOpen, publicLink, handleClose }) => {
                             onClick={copyLinkToClipboard}
                             className="bg-gray-200 text-gray-700 px-3 py-2 rounded hover:bg-gray-300"
                         >
-                            <i className="h-5 w-5 bx-clipboard"></i>
+                            <i className="h-5 w-5">copy</i>
                         </button>
                     </div>
                     <div className='flex justify-end space-x-2'>
