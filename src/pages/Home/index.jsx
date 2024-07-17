@@ -135,7 +135,7 @@ const Home = () => {
         handleClose={handleBioClose}
       />
       <PublishLink
-        publicLink={`http://localhost:3000/fame/${user?.username}`}
+        publicLink={`https://wall-of-fame-pi.vercel.app/fame/${user?.username}`}
         isOpen={isShareLinkOpen}
         handleClose={handleShareLinkClose}
       />
